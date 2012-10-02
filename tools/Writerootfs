@@ -1,0 +1,16 @@
+#!/bin/sh
+echo "========================================="
+echo "=       mount to yaffs2 part .....       ="
+echo "========================================="
+mount -t yaffs2 /dev/mtdblock2 /mnt
+echo "========================================="
+echo "=         decompress file               ="
+echo "========================================="
+echo "need several minutes, pls wait.....      "
+cd /mnt
+tar zxvf /rootfs.tar.gz
+echo $? result
+echo "========================================="
+echo "=       Root FS has been updated.       ="
+echo "=     Reboot and Enjoy idea6410!      ="
+echo "========================================="

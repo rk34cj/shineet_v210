@@ -1,0 +1,1 @@
+cmd_security/tomoyo/built-in.o :=  arm-none-linux-gnueabi-ld -EL    -r -o security/tomoyo/built-in.o security/tomoyo/common.o security/tomoyo/realpath.o security/tomoyo/tomoyo.o security/tomoyo/domain.o security/tomoyo/file.o 

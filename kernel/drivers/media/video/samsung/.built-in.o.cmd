@@ -1,0 +1,1 @@
+cmd_drivers/media/video/samsung/built-in.o :=  arm-none-linux-gnueabi-ld -EL    -r -o drivers/media/video/samsung/built-in.o drivers/media/video/samsung/fimc/built-in.o drivers/media/video/samsung/mfc50/built-in.o 

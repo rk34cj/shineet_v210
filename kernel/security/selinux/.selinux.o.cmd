@@ -1,0 +1,1 @@
+cmd_security/selinux/selinux.o := arm-none-linux-gnueabi-ld -EL    -r -o security/selinux/selinux.o security/selinux/avc.o security/selinux/hooks.o security/selinux/selinuxfs.o security/selinux/netlink.o security/selinux/nlmsgtab.o security/selinux/netif.o security/selinux/netnode.o security/selinux/netport.o security/selinux/exports.o security/selinux/netlabel.o 

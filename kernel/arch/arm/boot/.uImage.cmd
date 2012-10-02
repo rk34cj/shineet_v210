@@ -1,0 +1,1 @@
+cmd_arch/arm/boot/uImage := /bin/bash /media/work_space/Projects/shineet/kernel/scripts/mkuboot.sh -A arm -O linux -T kernel -C none -a 0x20008000 -e 0x20008000 -n 'Linux-2.6.32.9' -d arch/arm/boot/zImage arch/arm/boot/uImage
